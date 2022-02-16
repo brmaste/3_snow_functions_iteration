@@ -232,7 +232,7 @@ met_data_full <- map_dfr(file_names_met,our_met_reader)
 head(met_data_full) %>% 
   kable(.,'html') %>%
   kable_styling() %>%
-  scroll_box(width='800px,height=300px')
+  scroll_box(width='800px',height='300px')
 
 ```
 
